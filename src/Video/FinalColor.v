@@ -18,6 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+//输入一位判断符（阴影、直接、空白、反射等）和八位直接颜色、反射颜色数据，输出rgb
 module FinalColor(
 	output [2:0] r, output [2:0] g,	output [1:0] b,
 	input [0:0] b_shadow, input [0:0] b_link, input [0:0] b_trans,
